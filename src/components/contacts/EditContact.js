@@ -21,7 +21,7 @@ class EditContact extends Component {
     });
   }
 
-  //// UPDATE CONTACT ////
+  /// UPDATE CONTACT ////
   componentDidMount() {
     const { id } = this.props.match.params;
     this.props.getContact(id);
